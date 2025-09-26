@@ -114,7 +114,7 @@ This is a comprehensive chatbot platform that allows users to interact with Goog
 ### Installation
 ```bash
 # Clone the repository
-git clone [repository-url]
+git clone https://github.com/NishantTripathi21/adaptive-ai-chatbot
 cd adaptive-ai-chatbot
 
 # Install dependencies
