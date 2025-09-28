@@ -45,7 +45,7 @@ const ChatSchema = new mongoose.Schema({
 const Chat = mongoose.model('Chat', ChatSchema);
 
 //Google AI
-const genAI = new GoogleGenerativeAI(`AIzaSyBOZ8FfsvU7u6TvkD0EczolKAc9NcnS9Hs`); 
+const genAI = new GoogleGenerativeAI(`YOUR_GEMINI_API`); 
 
 // Auth middleware
 const authenticateToken = (req, res, next) => {
